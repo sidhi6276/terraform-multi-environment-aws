@@ -237,37 +237,6 @@ db_name        = "myapp_prod"
 s3_bucket_name = "myapp-prd-storage"
 ```
 
----
-
-## 💡 Best Practices Followed
-
-- **Modular Design** — Resources are abstracted into reusable modules
-- **Remote State** — Terraform state stored in S3 for team collaboration
-- **Environment Isolation** — Each env has its own state file and variables
-- **Naming Convention** — Resources tagged with environment prefix (e.g., `dev-ec2`, `prd-s3`)
-- **DRY Principle** — No code duplication across environments
-- **Least Privilege** — IAM roles configured with minimal required permissions
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to get started:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add: your feature"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## 👤 Author
 
 **Sidhi**
